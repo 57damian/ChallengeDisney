@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ChallengeDisney.Context
 {
-    public class ChallengeContext :DbContext
+    public class ChallengeContext : DbContext
     {
         public ChallengeContext(DbContextOptions options) : base(options)
         {

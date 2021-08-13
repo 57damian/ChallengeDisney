@@ -19,6 +19,6 @@ namespace ChallengeDisney.Entities
 
         public Genero Genero { get; set; }
 
-        public ICollection<Personaje> personajes { get; set; }
+        public ICollection<Personaje> personajes { get; set; } = new List<Personaje>();
     }
 }
