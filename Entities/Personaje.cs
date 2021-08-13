@@ -17,8 +17,8 @@ namespace ChallengeDisney.Entities
         
         public string Historia { get; set; }
 
-        
-        public ICollection<Pelicula> peliculas { get; set; }
+
+        public ICollection<Pelicula> peliculas { get; set; } = new List<Pelicula>();
 
     }
 }

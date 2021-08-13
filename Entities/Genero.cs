@@ -15,6 +15,6 @@ namespace ChallengeDisney.Entities
 
         //TODO: PELICULA
 
-        public ICollection<Pelicula> Peliculas { get; set; }
+        public ICollection<Pelicula> Peliculas { get; set; } = new List<Pelicula>();
     }
 }
